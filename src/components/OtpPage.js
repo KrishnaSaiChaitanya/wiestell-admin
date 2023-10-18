@@ -10,7 +10,7 @@ function OtpPage() {
               <div class="font-semibold text-3xl">
                 <p>Email Verification</p>
               </div>
-              <div class="flex flex-row text-sm font-medium text-gray-400">
+              <div class="flex flex-row text-lg font-medium text-gray-400">
                 <p>We have sent a code to your email ba**@dipainhouse.com</p>
               </div>
             </div>
@@ -55,12 +55,15 @@ function OtpPage() {
 
                   <div class="flex flex-col space-y-5">
                     <div>
-                      <button class="flex flex-row items-center justify-center text-center w-full border rounded-xl outline-none py-5 bg-blue-700 border-none text-white text-sm shadow-sm">
+                      <button
+                        class="flex flex-row items-center justify-center text-center w-full border rounded-xl outline-none py-5 bg-blue-700 border-none text-white  shadow-sm"
+                        style={{ fontSize: "28px" }}
+                      >
                         Verify Account
                       </button>
                     </div>
 
-                    <div class="flex flex-row items-center justify-center text-center text-sm font-medium space-x-1 text-gray-500">
+                    <div class="flex flex-row items-center justify-center text-center text-lg font-medium space-x-1 text-gray-500">
                       <p>Didnt recieve code?</p>{" "}
                       <a
                         class="flex flex-row items-center text-blue-600"

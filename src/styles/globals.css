@@ -7,6 +7,6 @@
   src: url("../fonts/JosefinSans-VariableFont_wght.ttf") format("truetype");
 }
 
-*{
+* {
   font-family: "JosefinSans", sans-serif; /* Use the font-family you defined */
 }
