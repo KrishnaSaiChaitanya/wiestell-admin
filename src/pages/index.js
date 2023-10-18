@@ -9,8 +9,7 @@ export default function Home() {
   return (
     <main>
       <h1>
-        {/* <LoginPage /> */}
-        <OtpPage />
+      <LoginPage/>
       </h1>
     </main>
   );
